@@ -164,7 +164,7 @@ async def run_tool_comparison() -> str:
     )
 
     if ollama_errors:
-        report += f"❌ Ollama қателері:\n"
+        report += "❌ Ollama қателері:\n"
         for e in ollama_errors[:3]:
             report += f"• {e}\n"
 

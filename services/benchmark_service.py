@@ -122,14 +122,14 @@ async def run_benchmark() -> str:
         try:
             g = test_groq(q)
             groq_results.append(g)
-        except Exception as e:
-            groq_results.append({"latency": 0, "tokens": 0, "tokens_per_sec": 0, "cost": 0})
-
+        except Exception:
+         groq_results.append({"latency": 0, "tokens": 0, "tokens_per_sec": 0, "cost": 0})
         try:
             o = test_ollama(q)
             ollama_results.append(o)
-        except Exception as e:
-            ollama_results.append({"latency": 0, "tokens": 0, "tokens_per_sec": 0, "ram_mb": 0})
+        except Exception:
+         ollama_results.append({"latency": 0, "tokens": 0, "tokens_per_sec": 0, "ram_mb": 0})
+            
 
     path = save_excel(groq_results, ollama_results)
 
