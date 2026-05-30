@@ -22,7 +22,7 @@ async def chat(req: ChatRequest):
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=[
-            {"role": "system", "content": "Сен NovaBot — ақылды AI көмекшісі. Қазақша, орысша және ағылшынша жауап бер."},
+            {"role": "system", "content": "Сен NovaBot — ақылды AI көмекшісі."},
             {"role": "user", "content": req.message}
         ]
     )
