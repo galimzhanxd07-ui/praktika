@@ -8567,3 +8567,13 @@ KeyboardInterrupt
 2026-05-30 12:22:45,675 | ERROR | Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2026-05-30 12:22:45,675 | WARNING | Sleep for 5.069275 seconds and try again... (tryings = 222, bot id = 8922709717)
 2026-05-30 12:22:55,718 | INFO | Connection established (tryings = 169, bot id = 8922709717)
+2026-05-31 01:11:11,094 | INFO | Start polling
+2026-05-31 01:11:11,379 | INFO | Run polling for bot @GalymMindFlow_Bot id=8922709717 - 'NovaBot'
+2026-05-31 01:11:45,399 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:11:45,787 | INFO | Update id=770055553 is handled. Duration 3156 ms by bot id=8922709717
+2026-05-31 01:12:29,346 | INFO | Polling stopped
+2026-05-31 01:12:29,346 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-31 01:12:29,346 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8922709717)
+2026-05-31 01:12:29,608 | INFO | Polling stopped for bot @GalymMindFlow_Bot id=8922709717 - 'NovaBot'
+2026-05-31 01:12:39,033 | INFO | Start polling
+2026-05-31 01:12:39,234 | INFO | Run polling for bot @GalymMindFlow_Bot id=8922709717 - 'NovaBot'
