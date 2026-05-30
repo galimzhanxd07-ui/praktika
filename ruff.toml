@@ -1,0 +1,6 @@
+# ruff.toml
+line-length = 120
+target-version = "py312"
+
+[lint]
+ignore = ["E501", "F401", "F811"]
